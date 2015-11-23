@@ -3,13 +3,7 @@ package metrics
 import breeze.linalg._
 import breeze.numerics.abs
 
-/**
- * Smallest ball metric
- *
- *
- *
- *
- */
+
 object outlierScore {
 
   def apply(x: Vector[Double],
