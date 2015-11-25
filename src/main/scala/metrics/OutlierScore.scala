@@ -2,11 +2,11 @@ package metrics
 
 import breeze.linalg._
 import breeze.numerics.abs
-
+import org.apache.spark.mllib
 
 object outlierScore {
 
-  def apply(x: Vector[Double],
+  def apply( x: Vector[Double],
             neighbors: DenseMatrix[Double],
             metric: String = "delta",
             distanceMetric: String = "euclidean"): Double = {
@@ -17,6 +17,13 @@ object outlierScore {
       case "delta" => delta(distances)
       case _ => delta(distances)
     }
+  }
+
+  def apply( x: mllib.linalg.Vector,
+             neighbors: DenseMatrix[Double],
+             metric: String = "delta",
+             distanceMetric: String = "euclidean"): Double = {
+    this.apply(x=Vector(x.toArray), neighbors=neighbors, metric=metric, distanceMetric=distanceMetric)
   }
 
   private def computeDistances(x: Vector[Double],

@@ -57,7 +57,6 @@
     <orderEntry type="library" name="SBT: com.sun.jersey:jersey-server:1.9:jar" level="project" />
     <orderEntry type="library" name="SBT: com.sun.jersey.contribs:jersey-guice:1.9:jar" level="project" />
     <orderEntry type="library" name="SBT: com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly2:1.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.sun.xml.bind:jaxb-impl:2.2.3-1:jar" level="project" />
     <orderEntry type="library" name="SBT: com.thoughtworks.paranamer:paranamer:2.6:jar" level="project" />
     <orderEntry type="library" name="SBT: com.twitter:chill-java:0.5.0:jar" level="project" />
     <orderEntry type="library" name="SBT: com.twitter:chill_2.10:0.5.0:jar" level="project" />
@@ -82,9 +81,7 @@
     <orderEntry type="library" name="SBT: io.dropwizard.metrics:metrics-jvm:3.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: io.netty:netty:3.8.0.Final:jar" level="project" />
     <orderEntry type="library" name="SBT: io.netty:netty-all:4.0.29.Final:jar" level="project" />
-    <orderEntry type="library" name="SBT: javax.activation:activation:1.1:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.inject:javax.inject:1:jar" level="project" />
-    <orderEntry type="library" name="SBT: javax.xml.bind:jaxb-api:2.2.2:jar" level="project" />
     <orderEntry type="library" name="SBT: jline:jline:0.9.94:jar" level="project" />
     <orderEntry type="library" name="SBT: junit:junit:4.8.2:jar" level="project" />
     <orderEntry type="library" name="SBT: log4j:log4j:1.2.17:jar" level="project" />
@@ -183,5 +180,16 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="SBT: com.sun.istack:istack-commons-runtime:2.16:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.sun.xml.bind:jaxb-core:2.2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.sun.xml.bind:jaxb-impl:2.2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.sun.xml.fastinfoset:FastInfoset:1.2.12:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.xml.bind:jaxb-api:2.2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.xml.bind:jsr173_api:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-graphx_2.10:1.5.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-mllib_2.10:1.5.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jpmml:pmml-agent:1.1.15:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jpmml:pmml-model:1.1.15:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jpmml:pmml-schema:1.1.15:jar" level="project" />
   </component>
 </module>
